@@ -1,0 +1,25 @@
+@import "./abstracts/functions";
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+
+@import "./base/base";
+@import "./base/animation";
+@import "./base/typography";
+@import "./base/utilities";
+@import "./base/button.scss";
+
+
+@import "./pages/home";
+@import "./layout/header.scss";
+@import "./layout/grid.scss";
+@import "./layout/main.scss";
+@import "./pages/Policy.scss";
+@import"./pages/RatePlans.scss";
+
+
+
+
+
+
+

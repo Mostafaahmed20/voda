@@ -1,0 +1,64 @@
+.text-box {
+position: absolute;
+top: 40%;
+left: 40%;
+transform:translate(-50% , -50%);
+text-align: center;
+}
+
+/* anamation start  */
+
+/* anamation end */
+
+.heading__header{
+color:$scolor;
+text-transform: uppercase;
+position: fixed;
+margin-bottom: .2rem;
+backface-visibility: hidden;
+}
+
+.main-primary--main{
+    display: block;
+font-size: 3rem;
+font-weight: 500;
+letter-spacing: 1rem;
+animation:anm 3s  ease-in;
+}
+
+.main-primary--sub{
+display: block;
+font-size: 2rem;
+font-weight: 700;
+letter-spacing: .2rem;
+animation:  anm2 3s ease-out ;
+}
+
+.section-about{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: inline-block;
+   margin-top: 25vh;
+   background-image: linear-gradient(to right ,  $red , $fcolor);
+   -webkit-background-clip:text;
+   color: transparent;
+   transition: all .3s;
+   letter-spacing: .2rem;
+      
+   
+&:hover{
+    transform: skewY(0deg) skewX(1deg) scale(1.1);
+    text-shadow: .1rem .1rem .1rem $light-black;
+}
+
+
+
+}
+
+
+
+
+
+
+

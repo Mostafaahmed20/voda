@@ -1,0 +1,23 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "vodafone",
+  "main": "index.js",
+  "scripts": {
+    "compile:css": "node-sass resources/sass/main.scss  style/index.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/Mostafaahmed20/voda.git"
+  },
+  "author": "mostafa-ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "particles.js": "^2.0.0"
+  }
+}

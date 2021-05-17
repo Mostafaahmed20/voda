@@ -1,0 +1,55 @@
+
+.btn:link , 
+.btn:visited {
+@include btnstyling;
+
+}
+
+
+.btn:hover{
+    transform: translateY(-.3rem);
+    box-shadow: $fcolor  ;
+}
+.btn:active{
+    transform: translateY(-.1rem);
+}
+.btn-box{
+    position: absolute;
+    top: 16rem;
+    left:  -1rem;
+    letter-spacing: 2px;
+}
+.btn--white{
+    background-color:$dark;
+    border-radius: 5rem;
+width: 30rem;
+}
+
+
+
+.btn::after{
+content: "";
+display: inline-block;
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+border-radius: 100px;
+z-index: -1;
+}
+
+
+
+.price-group{
+   max-width: max-content;
+    height: max-content;
+    background-color: $red;
+.price-tiltle{
+    color: $red;
+    font-size:5rem;
+
+}
+
+}
+

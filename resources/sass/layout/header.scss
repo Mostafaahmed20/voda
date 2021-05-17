@@ -1,0 +1,39 @@
+.header{
+    height: 95vh; 
+    object-fit: cover;
+    background-image: linear-gradient(to right top ,  rgba($dark, 0.6) ,
+    rgba($red, 0.5))
+    , url('./imges/egor-myznik-IaHgkGts2-Y-unsplash.jpg');
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+    position: relative;
+
+
+.header__logo{
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    animation: logoanm 3s ease-in-out;    
+}
+img {
+width: 4rem;
+height: 4rem;
+background-position:center;
+background-size: cover;
+margin-left: 1rem;
+}
+
+.header__After-logo{
+    color:$red;
+    text-transform: lowercase;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+.header__After-logo::before{
+    content: "v";
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+}
